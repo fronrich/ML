@@ -1,0 +1,9 @@
+Notes - 
+Supports both linear and nonlinear regression, tries to combine linear regression and polynomial regression as much as possible while maintaining elements of both
+SVR performs regression in a higher dimensional space
+Each data point is a dimension, get a vector from evaluating the training point from all the dimensions
+Use the vector to perform the linear regression
+Epsilon is the parameter that allows the spread of the streets
+
+REQUIRMENTS
+Need training set which covers the SVR 
