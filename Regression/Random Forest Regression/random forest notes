@@ -1,0 +1,20 @@
+Random Forest Regression
+-Version of Ensemble learning
+-Ensemble learning is when you put together multiple algos together
+Steps
+Step 1: Pick at random k data points from the training set
+Step 2: Build  a decision tree associated to these k data points
+Step 3: Choose the number of Ntree of trees you want to build and repeat steps 1 and 2
+Step 4: For a new data point make each one of your trees predict the value of y for the data points and assign
+the new data point the average across all the predicted y values from each trees
+
+We don't have to worry about the risk that is associated with one tree being built badly
+ because of an anomaly
+
+ Jar of marbles example with writing numbers down and then average the numbers together
+ or take the median to get rid of outliers
+ Doing this has a better chance at winning the contest
+ By averaging out the guesses you are able to get in the money, it is an example
+ of an Ensemble algorithm
+
+ 
