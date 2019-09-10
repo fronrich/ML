@@ -1,1 +1,22 @@
+Intuition
+CART
+Classification and Regression Trees -  2 types of trees
+Regression trees are more complex
+Given x1 and x2 on the scatter plot predict y which in this case is the third dimension
+Essentially create a new dimension of variables
+After running the regression tree, the scatter plot will be split into segments
+Split on the x axis greater and less than y axis as well 
+These splits are determineed by the algorithm- looks at the information entropy
+Does the split increase the info about the points, looks for value added
+Algorithm knows that if we aren't adding a certain amount each split, it knows it is done splitting
+Essentially finds the final splits into terminal leaves
+From each split we have 2 choices, split the points less than 20 and then split based on each decision split
+Called a decision 3 because of this tree of choices
+
+HOW TO PREDICT Y
+Given x1 and x2 we fall into a certain segment of the plot
+Take the average of the terminal leaf that the point falls in
+That is the average for y for that terminal leaf
+Remember that the y is in the third dimension
+By taking averages of sections of scatter plots that makes the resultant number more accurate
 
